@@ -36,7 +36,6 @@ export const Projects = () => {
                             </div>
                             <div className="flex items-center flex-wrap gap-2">
                                 <a href="https://www.schildersbedrijf-arnedo.nl" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
                             </div>
                         </div>
                     </div>
@@ -129,7 +128,6 @@ export const Projects = () => {
                             </div>
                             <div className="flex items-center flex-wrap gap-2">
                                 <a href="https://arnedo1.github.io/Oro-d-Italia/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a>
                             </div>
                         </div>
                     </div>
