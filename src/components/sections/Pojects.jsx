@@ -9,7 +9,7 @@ import imgOroDItalia from "../../assets/Frame.Oro.d.italia.png"
 export const Projects = () => {
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
-            <RevealOnScroll>
+            {/* <RevealOnScroll> */}
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-3xl text-center font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
                     Featured Projects
@@ -60,7 +60,6 @@ export const Projects = () => {
                             </div>
                             <div className="flex items-center flex-wrap gap-2">
                                 <a href="https://damoschildersbedrijf.nl/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
                             </div>
                         </div>
                     </div>
@@ -84,7 +83,6 @@ export const Projects = () => {
                             </div>
                             <div className="flex flex-wrap gap-2 items-center ">
                                 <a href="https://arnedoschildersbedrijf.nl/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
                             </div>
                         </div>
                     </div>
@@ -108,12 +106,11 @@ export const Projects = () => {
                             </div>
                             <div className="flex flex-wrap gap-2 items-center">
                                 <a href="https://currency-0d338f3b7007.herokuapp.com/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
                             </div>
                         </div>
                     </div>
                     <div className="bg-gray-800/50  hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] transition hover:scale-101 rounded-lg p-6 backdrop-blur-sm border border-gray-700">
-                        <h3 className="text-xl font-bold mb-2">Schildersbedrijf Arnedo</h3>
+                        <h3 className="text-xl font-bold mb-2">Oro d Italia</h3>
                         <img src={imgOroDItalia} alt="Schildersbedrijf Arnedo website preview" className="w-full h-auto mb-4" />
                         <h3 className="text-xl font-bold mb-2">Italian Restaurant website</h3>
                         <p className="text-gray-300 mb-4">
@@ -131,8 +128,8 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex items-center flex-wrap gap-2">
-                                <a href="https://www.schildersbedrijf-arnedo.nl" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
+                                <a href="https://arnedo1.github.io/Oro-d-Italia/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
+                                <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -155,14 +152,14 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex items-center flex-wrap gap-2">
-                                <a href="https://www.schildersbedrijf-arnedo.nl" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
-                                {/* <a href="#" className="border border-blue-500/50 text-blue-500 h-8 px-4 rounded font-medium inline-flex items-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)]">GitHub</a> */}
+                                <a href="https://arnedo1.github.io/Meal-Finder/" className="bg-blue-500 text-white h-8 px-4 rounded font-medium transition inline-flex items-center relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Website</a>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </RevealOnScroll>
+            {/* </RevealOnScroll> */}
         </section>
     )
 }
